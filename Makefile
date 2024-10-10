@@ -5,4 +5,4 @@ deploy: pandoc-convert-out-pdf
 
 pandoc-convert-out-pdf:
 	# install `python-weasyprint pandoc, adobe-source-han-serif-otc-fonts` at archlinux
-	pandoc -f html index.html -t pdf -V CJKmainfont="Source Han Serif CN" --pdf-engine=weasyprint -o x.pdf
+	pandoc -f html index.html -t pdf -V CJKmainfont="Source Han Serif CN" --pdf-engine=weasyprint -o 周邦森简历.pdf
