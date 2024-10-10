@@ -1,4 +1,4 @@
-deploy:
+deploy: pandoc-convert-out-pdf
 	git add .
 	git commit -m "update index.html"
 	git push
